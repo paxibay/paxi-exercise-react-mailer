@@ -23,7 +23,7 @@ class About extends Component {
           <li>Flux implementation</li>
           <li>Show / hide element</li>
           <li>Enable or disable element</li>
-          <li>onitoring starte changing</li>
+          <li>Monitoring starte changing</li>
         </ul>
         <h3>Setup invironment as below:</h3>
         <ol>
