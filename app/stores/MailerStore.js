@@ -1,5 +1,5 @@
 import AppDispatcher from '../AppDispatcher';
-import bankConstants from '../constants';
+import mailerConstants from '../constants';
 import {ReduceStore} from 'flux/utils';
 
 class MailerStore extends ReduceStore {
@@ -9,9 +9,9 @@ class MailerStore extends ReduceStore {
 
   reduce(state, action){
     switch (action.type) {
-      case bankConstants.VERIFY_EMAIL_CONTENT:
+      case mailerConstants.VERIFY_EMAIL_CONTENT:
         return action.email.isValid;
-      case bankConstants.POST_EMAIL:
+      case mailerConstants.POST_EMAIL:
         return action.email;
       default:
         return state;

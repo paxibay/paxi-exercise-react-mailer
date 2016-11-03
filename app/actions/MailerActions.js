@@ -1,17 +1,17 @@
 import AppDispatcher from '../AppDispatcher';
-import bankConstants from '../constants';
+import mailerConstants from '../constants';
 
 let MailerActions = {
   verifyEmailContent(email) {
     AppDispatcher.dispatch({
-      type: bankConstants.VERIFY_EMAIL_CONTENT,
+      type: mailerConstants.VERIFY_EMAIL_CONTENT,
       email:email
     });
   },
 
   postEmail(email) {
     AppDispatcher.dispatch({
-      type: bankConstants.POST_EMAIL,
+      type: mailerConstants.POST_EMAIL,
       email:email
     });
   }
