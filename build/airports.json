@@ -1,0 +1,27 @@
+[
+    {
+        "code": "ATL",
+        "city": "Atlanta GA",
+        "country": "US"
+    },
+    {
+        "code": "PEK",
+        "city": "Beijing",
+        "country": "CN"
+    },
+    {
+        "code": "LHR",
+        "city": "London",
+        "country": "GB"
+    },
+    {
+        "code": "ORD",
+        "city": "Chicago IL",
+        "country": "US"
+    },
+    {
+        "code": "HND",
+        "city": "Tokyo",
+        "country": "JP"
+    }
+]
