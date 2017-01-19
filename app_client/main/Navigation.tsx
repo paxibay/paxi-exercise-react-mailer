@@ -20,10 +20,8 @@ class Navigation extends React.Component<{}, {}> {
           </div>
           <div id="navbar-main" className="navbar-collapse collapse">
             <ul className="nav navbar-nav">
-              <li><Link to="/todos" activeClassName="active" >Todos</Link></li>
-              <li><Link to="/dashboard" activeClassName="active" >Dashboard</Link></li>
-              <li><Link to="/blueprint" activeClassName="active" >Blueprint</Link></li>
               <li><Link to="/mailer" activeClassName="active" >Mailer</Link></li>
+              <li><Link to="/about" activeClassName="active" >About</Link></li>
             </ul>
           </div>
         </div>
